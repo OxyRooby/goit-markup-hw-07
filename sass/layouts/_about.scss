@@ -1,4 +1,4 @@
-.about {
+.about__container {
     padding-bottom: 94px;
 }
 
@@ -10,18 +10,18 @@ h2 {
     letter-spacing: 0.03em;
 }
 
-.about-list {
+.picture-list {
     display: flex;
     justify: space-between;
     gap: 30px;
     margin-top: 50px;
 }
 
-.about-top-wrap {
+.picture-wrap {
     position: relative;
 }
 
-.about-top-text {
+.picture-wrap__text {
     position: absolute;
     bottom: 0;
     background: rgba(47, 48, 58, 0.8);
