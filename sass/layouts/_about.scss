@@ -1,0 +1,38 @@
+.about {
+    padding-bottom: 94px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.23;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.about-list {
+    display: flex;
+    justify: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.about-top-wrap {
+    position: relative;
+}
+
+.about-top-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 100%;
+    padding: 27px;
+    text-align: center;
+}
