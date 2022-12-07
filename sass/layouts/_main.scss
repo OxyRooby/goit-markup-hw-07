@@ -15,12 +15,14 @@ h1 {
     text-align: center;
     color: var(--white-color);
     text-transform: uppercase;
+
+}
+
+.main-page__title {
     margin-bottom: 30px;
 }
 
 .button {  
-    font-size: 16px;
-    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -33,5 +35,11 @@ h1 {
     border: none;
     display: block;
     margin: 0 auto;
+
+}
+
+.main-page__button {
+    font-size: 16px;
+    line-height: 30px;
     padding: 10px 32px;
 }

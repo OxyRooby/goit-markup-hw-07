@@ -432,12 +432,13 @@ h1 {
   text-align: center;
   color: var(--white-color);
   text-transform: uppercase;
+}
+
+.main-page__title {
   margin-bottom: 30px;
 }
 
 .button {
-  font-size: 16px;
-  line-height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,6 +456,11 @@ h1 {
   border: none;
   display: block;
   margin: 0 auto;
+}
+
+.main-page__button {
+  font-size: 16px;
+  line-height: 30px;
   padding: 10px 32px;
 }
 
@@ -463,25 +469,25 @@ h1 {
   padding-bottom: 94px;
 }
 
-.benefits-list {
+.inform-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.benefits-list-div {
+.inform-list__wrap {
   width: 270px;
 }
 
-.benefits-list-item {
+.inform-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-.benefits-list-icon {
+.inform-list__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -497,7 +503,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.benefits-icon {
+.inform-list__icon {
   width: 70px;
   height: 70px;
 }
